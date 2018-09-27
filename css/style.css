@@ -183,3 +183,43 @@ display: block;
 	text-align: center;
 	margin-top: 20px;
 }
+@media screen and (max-width: 1200px){
+
+body {
+	background-color: red;
+}
+}
+@media screen and (max-width: 768px){
+
+body {
+	background-color: blue;
+}
+.main-header{
+	display: flex;
+	flex-direction: column;
+}
+
+.logo{
+	order: 2;
+}
+
+.social{
+	background-color: #32618D;
+	position: initial;
+	display: flex;
+	justify-content: flex-end;
+	order: 1;
+
+}
+.main-menu{
+	order: 3;
+}
+
+}
+
+@media screen and (max-width: 480px){
+
+body {
+	background-color: pink;
+}
+}
