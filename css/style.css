@@ -1,0 +1,185 @@
+body{
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+}
+.main-header{
+
+}
+.logo{
+	background-color: #32618D;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.social{
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	font-size: 38px;
+}
+.social a{
+	color: #8D9EBE;
+	margin-right: 8px;
+	text-decoration: none;
+}
+.main-menu {
+	text-align: center;
+}
+.main-menu ul{
+	list-style: none;
+}
+.main-menu ul li{
+	display: inline-block;
+	margin: 5px 10px;
+}
+.main-menu ul li a{
+	color: #1E3B71;
+	font-weight: 900;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	text-decoration: none;
+	transition: all 0.2s ease-in;
+}
+.main-menu ul li a:hover{
+	color: #8DABC2;
+	border-bottom: 2px solid #8DABC2;
+}
+.slider img{
+	width: 100%;
+}
+.container{
+	margin: 0 auto;
+	width: 1500px;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+}
+.tittle-section{
+
+	font-size: 30px;
+	text-align: center;
+	padding-top:10px;
+	padding-bottom: 10px;	
+}
+.title-oferta-academica{
+	color: #32618D;
+	text-align: center;
+}
+.center{
+	text-align: center;
+}
+.card{
+	
+	width: 400px;
+	border-radius: 5px;
+	border: 1px solid #D6D2D2;	
+	overflow: hidden;
+}
+.card-hero{
+	position: relative;
+}
+.card-hero:hover .btn-card-show{
+	display: block;
+
+}
+.card-hero img{
+	width: 100%;
+}
+.btn-card-show{
+	background-color: #FFB606;
+	display: none;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: -10px;
+	margin-left: -50px;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	height: 20px;
+    width: 100px;
+}
+.btn-card-show:hover{
+	background-color: #e0a006;
+}
+.card-title{
+	text-align: center;
+}
+.card-title::after {
+	content: '';
+	background-color: green;
+	height: 1px;
+	width: 60%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 5px;
+
+}
+
+
+.card-list{
+	color: #9999;
+	list-style: none;
+	padding-left: 0px;
+	text-align: center;
+}
+.card-list li{
+	padding-bottom: 5px;
+}
+.contact.container{
+	display: flex;
+	justify-content: space-around;
+}
+.title-contact{
+	background-color: #8DABC2;
+	color: white;
+}
+
+.img-contact{
+ margin: 0;
+}
+
+.img-contact img{
+	width:100%;
+}
+.contact-form{
+display:felix;
+flex-direction: column;
+padding: 0 20px 30px 2
+
+}
+
+.contact-form input[type="text"]{
+display: block;
+}
+
+.form-control{
+	
+	border:1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+	width: 100%;
+	margin: 7px 0;
+	padding: 7px 0;
+}
+
+.btn-contact{
+	border-radius: 5px;
+	background-color: #32618d;
+	color: #FFB606;;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.footer{
+
+	background-color:#32618D;
+	color:#FFB606;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	margin-top: 20px;
+}
